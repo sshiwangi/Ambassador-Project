@@ -8,5 +8,5 @@ Charicon is a platform that works towards bridging the gap between donor and NGO
    https://github.com/mahnoor-ali
 3. Surbhi Kumari [*frontend & design*] <br>
    https://github.com/surbhi400
-4. Lilian Murugi [*fronend*] <br>
+4. Lilian Murugi [*frontend*] <br>
    https://github.com/lilintech
