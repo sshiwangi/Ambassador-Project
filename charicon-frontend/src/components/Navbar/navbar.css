@@ -1,0 +1,20 @@
+section.navbar {
+    background-color: var(--color-primary);
+}
+.nav-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: var(--container-nav-item-width-lg);
+}
+.container.navbar-section {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+}
+@media screen and (max-width: 1140px){
+    .nav-item-container {
+        width: var(--container-nav-item-width-md)
+    }
+}
