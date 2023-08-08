@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import BrowseNGO from './pages/BrowseNGO/BrowseNGO';
 import ItemDetails from './pages/ItemDetails/ItemDetails';
 import Home from './pages/Home/Home';
+import NgoLogin from './pages/NGOLogin/NgoLogin';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/browsengo" element={<BrowseNGO />} />
+          <Route path="/ngologin" element={<NgoLogin />} />
           <Route path="/itemdetails" element={<ItemDetails />} />
         </Routes>
         <Footer />
