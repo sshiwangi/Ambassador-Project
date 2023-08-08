@@ -7,16 +7,15 @@ function Navbar() {
   return (
     <section className='navbar'>
         <div className="container navbar-section ">
-            <img src={chariconLogo} alt="charicon Logo" />
+            <img height="60px "src={chariconLogo} alt="charicon Logo" />
             <div className="nav-item-container">
-                <div id="about">About</div>
-                <div id="working">How it Works?</div>
-                <div id="contact">Contact</div>
+              <a style={{color: 'white'}} href="#about">  <div>About</div> </a>
+              <a style={{color: 'white'}} href="#working"> <div id="working">How it Works?</div></a> 
+              <a style={{color: 'white'}} href="#contact">  <div>Contact</div></a>
                 <div className="user-authentication">
                     <img src={userIcon} alt="" />
                 </div>
             </div>
-
         </div>
     </section>
   )

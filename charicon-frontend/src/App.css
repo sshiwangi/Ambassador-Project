@@ -14,6 +14,10 @@
   --color-white: rgba(255, 255, 255, 255);
   --color-secondary-white: #f1f1f1;
   --color-primary: #5E51FB;
+  --color-light-bg: #F7F4F4;
+  --color-footer: #090909;
+
+  --section-heading-font-size: 36px;
 
   --container-width-lg: 75%;
   --container-width-md: 82%;
@@ -42,4 +46,14 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+.section-heading {
+  color: var(--color-primary);
+  font-size: var(--section-heading-font-size);
+  font-weight: 600;
+  margin-bottom: 3rem;
 }

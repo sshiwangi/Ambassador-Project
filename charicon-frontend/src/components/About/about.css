@@ -1,0 +1,22 @@
+img.about-img {
+    height: 250px;
+}
+#about {
+    background-color: var(--color-light-bg);
+    padding: 5rem 0rem;
+}
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-section-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.about-text {
+    font-size: 24px;
+    margin-left: 2rem;
+}

@@ -1,5 +1,6 @@
 section.navbar {
     background-color: var(--color-primary);
+    height: 75px;
 }
 .nav-item-container {
     display: flex;
@@ -12,6 +13,7 @@ section.navbar {
     display: flex;
     /* width: 100%; */
     justify-content: space-between;
+    align-items: center;
 }
 @media screen and (max-width: 1140px){
     .nav-item-container {
