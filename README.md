@@ -16,7 +16,7 @@ Its aim is to ensure a streamlined means of communication between the donors and
 1. Clone the repository to your local machine using the following command:
    
 ```bash
-git clone
+git clone https://github.com/your-username/charicon-frontend.git
 ```
 
 2. Move to the project directory:
