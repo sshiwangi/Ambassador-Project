@@ -1,3 +1,26 @@
+.hero-content{
+    /* Basic container styles */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertically center align items */
+    max-width: 100%;
+}
+
+/* Image styles */
+.container img {
+    max-width: 100%;
+    height: auto;
+    flex: 1; /* Let the image grow or shrink as needed */
+    margin-right: 20px; /* Add some spacing between image and text */
+}
+
+/* Paragraph (text) styles */
+.container p {
+    flex: 2; /* Let the text take more space than the image */
+}
+
+}
 img.hero-img {
     height: 300px;
     border-radius: 15px;
@@ -25,7 +48,7 @@ button {
 }
 .btn-container {
     display: flex;
-    
+
 }
 .donate {
     background-color: var(--color-primary);

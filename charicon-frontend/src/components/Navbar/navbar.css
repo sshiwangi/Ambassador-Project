@@ -15,8 +15,15 @@ section.navbar {
     justify-content: space-between;
     align-items: center;
 }
+.nav-item {
+    margin-right: 20px; /* Adjust the spacing as needed */
+}
 @media screen and (max-width: 1140px){
     .nav-item-container {
-        width: var(--container-nav-item-width-md)
+        width: var(--container-nav-item-width-md);
+    }
+    section.navbar {
+        font-size: 14px; /* Adjust the font size as needed */
+        text-align: center;
     }
 }

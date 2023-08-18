@@ -1,0 +1,58 @@
+.container-login {
+  height: 100vh;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.text,
+h2 {
+  font-family: Inter;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.required::after {
+    content:"*";
+    color: red;
+    margin-left: 5px;
+  }
+input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #e4e4e4;
+  background-color: #d9d9d9;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+#section1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0%;
+  height: 0px;
+  margin-right: 280px;
+}
+#section2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70%;
+  height: 0px;
+  margin-top: 100px;
+}
+.submit,
+button {
+  width: 100px;
+text-align: center;
+  height: 40px;
+    border-radius: 5px;
+  background-color: #5e51fb;
+  cursor: pointer;
+}
